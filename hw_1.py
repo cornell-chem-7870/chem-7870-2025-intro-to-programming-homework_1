@@ -22,7 +22,7 @@ def add_two_numbers(a: float, b: float) -> float:
     raise NotImplementedError
 
 
-def first_k_fibonacci_numbers(k: int) -> list:
+def first_k_fibonacci_numbers(k: int) -> np.ndarray:
     """
     Returns the first k Fibonacci numbers.
 
@@ -54,27 +54,6 @@ def find_all_sixes(x: np.ndarray) -> np.ndarray:
         find_all_sixes(np.array([1, 2, 3, 4, 5])) -> np.array([])
         find_all_sixes(np.array([6, 6, 6, 6, 6])) -> np.array([0, 1, 2, 3, 4])
     """
-    raise NotImplementedError
-
-
-def multiply_two_matrices_using_for_loops(A: np.ndarray, B: np.ndarray) -> np.ndarray:
-    """
-    Multiplies two matrices by looping over rows and columns and taking the
-    the dot product as appropriate.
-
-    Args:
-        A: np.ndarray
-        B: np.ndarray
-
-    Returns:
-        np.ndarray: The product of A and B.
-
-    Example:
-        multiply_two_matrices_using_for_loops(np.array([[1, 2], [3, 4]]), np.array([[1, 2], [3, 4]])) -> np.array([[7, 10], [15, 22]])
-    """
-    # Initialize a matrix to store the result, should be of size (A_rows, B_cols)
-
-    # Loop over rows of A, then columns of B, and add to the right entry of the result matrix
     raise NotImplementedError
 
 
